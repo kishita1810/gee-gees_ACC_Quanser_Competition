@@ -68,30 +68,30 @@ https://github.com/quanser/ACC-Competition-2025/blob/stage2/Software_Guides/phys
 
 - **First Terminal**
 
--- The commands from the above repository were executed in the native installation of Nvidia Jetson motherboard in one terminal.
+    - The commands from the above repository were executed in the native installation of Nvidia Jetson motherboard in one terminal.
 
 - **Second Terminal**
 
--- The commands from the same repository are executed in the second terminal to open up the Isaac docker container. 
--- Execute the script to detect signs by running python3 stop_and_yield.py in the docker container.
+    - The commands from the same repository are executed in the second terminal to open up the Isaac docker container. 
+    - Execute the script to detect signs by running python3 stop_and_yield.py in the docker container.
 
 - **Third Terminal**
 
--- Execute the script to detect road cone by running python3 road_cone_detector.py in the docker container.
+    - Execute the script to detect road cone by running python3 road_cone_detector.py in the docker container.
 
 - **Fourth Terminal**
 
--- Execute the script to detect obstacles by running python3 object_detector_lidar.py in the docker container.
+    - Execute the script to detect obstacles by running python3 object_detector_lidar.py in the docker container.
 
 - **Fifth Terminal**
 
--- Execute the script to activet LEDs by running python3 led_controller.py in the docker container.
+    - Execute the script to activet LEDs by running python3 led_controller.py in the docker container.
 
 - **Sixth Terminal**
 
--- Execute the script to drive the car by running python3 'ride_1.py', 'ride_2.py', or 'ride_3.py' in the docker container.
+    - Execute the script to drive the car by running python3 'ride_1.py', 'ride_2.py', or 'ride_3.py' in the docker container.
 
--- Note that running the alternative traffic light script is optional.
+    - Note that running the alternative traffic light script is optional.
 
 
 ## Accomplishments
