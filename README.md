@@ -7,7 +7,7 @@ Our system uses a combination of computer vision techniques and PD control to na
 
 Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below. 
 
-## Stage 1 
+## Stage 1: Simulation in QLab 
 
 ## Software Setup
 
@@ -59,7 +59,7 @@ After that, ensure if you could navigate to the directory path of ACC_Developmen
      - In all above cases, the simulation must be restarted. Alternatively, if the car's behaviour deviates from the behaviour shown in the video, then the simulation must be restarted.
 ---
 
-## Stage 2
+## Stage 2: Physical Implementation
 
 ## Software Setup
 
