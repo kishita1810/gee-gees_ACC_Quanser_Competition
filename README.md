@@ -1,12 +1,13 @@
 # Quanser Self-Driving Car Competition - University of Ottawa Team
 
-## Project Overview
-This repository contains the code developed for Stage 1 of the 2025 Quanser American Control Conference Self-Driving Car Student Competition.
+## Project Overview 
+This repository contains the code developed for Stage 1 and 2 of the 2025 Quanser American Control Conference Self-Driving Car Student Competition.
 
 Our system uses a combination of computer vision techniques and PD control to navigate lanes, detect traffic lights, and handle intersections. 
 
 Due to time and resource constraints, some trade-offs and limitations exist, which are detailed below. 
 
+## Stage 1 
 
 ## Software Setup
 
@@ -57,6 +58,41 @@ After that, ensure if you could navigate to the directory path of ACC_Developmen
      - - Car trying to turn left at the second traffic light.
      - In all above cases, the simulation must be restarted. Alternatively, if the car's behaviour deviates from the behaviour shown in the video, then the simulation must be restarted.
 ---
+
+## Stage 2
+
+## Software Setup
+
+Instructions were followed according the repository below:
+https://github.com/quanser/ACC-Competition-2025/blob/stage2/Software_Guides/physical_qcar2_software_setup_instructions.md
+
+## First Terminal
+
+The commands from the above repository were executed in the native installation of Nvidia Jetson motherboard in one terminal.
+
+## Second Terminal
+
+The commands from the same repository are executed in the second terminal to open up the Isaac docker container. 
+Execute the script to detect signs by running python3 stop_and_yield.py in the docker container.
+
+## Third Terminal
+
+Execute the script to detect road cone by running python3 road_cone_detector.py in the docker container.
+
+## Fourth Terminal
+
+Execute the script to detect obstacles by running python3 object_detector_lidar.py in the docker container.
+
+## Fifth Terminal
+
+Execute the script to activet LEDs by running python3 led_controller.py in the docker container.
+
+## Sixth Terminal
+
+Execute the script to drive the car by running python3 'ride_1.py', 'ride_2.py', or 'ride_3.py' in the docker container.
+
+Note that running the alternative traffic light script is optional.
+
 
 ## Accomplishments
 
