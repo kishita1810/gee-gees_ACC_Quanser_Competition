@@ -66,14 +66,14 @@ After that, ensure if you could navigate to the directory path of ACC_Developmen
 Instructions were followed according the repository below:
 https://github.com/quanser/ACC-Competition-2025/blob/stage2/Software_Guides/physical_qcar2_software_setup_instructions.md
 
-## First Terminal
+- **First Terminal**
 
-The commands from the above repository were executed in the native installation of Nvidia Jetson motherboard in one terminal.
+-- The commands from the above repository were executed in the native installation of Nvidia Jetson motherboard in one terminal.
 
-## Second Terminal
+- **Second Terminal**
 
-The commands from the same repository are executed in the second terminal to open up the Isaac docker container. 
-Execute the script to detect signs by running python3 stop_and_yield.py in the docker container.
+-- The commands from the same repository are executed in the second terminal to open up the Isaac docker container. 
+-- Execute the script to detect signs by running python3 stop_and_yield.py in the docker container.
 
 ## Third Terminal
 
